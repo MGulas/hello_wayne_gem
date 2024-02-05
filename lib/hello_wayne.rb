@@ -6,4 +6,8 @@ module HelloWayne
   def self.greet
     puts "Hello Wayne"
   end
+
+  def self.shame(shamed)
+      puts "Shame on #{shamed}" 
+  end
 end
